@@ -11,9 +11,9 @@ spec:
     metadata:
       labels:
         app: myapp
-    spec:
-      containers:
-      - name: myapp-container
-        image: myacrregistry123.azurecr.io/myapp:v1
-        ports:
-        - containerPort: 80
+   spec:
+  containers:
+  - name: myapp
+    image: myacrregistry123.azurecr.io/jesiyalal/spring-latest_2:latest
+    ports:
+      - containerPort: 8080
